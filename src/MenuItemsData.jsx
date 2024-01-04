@@ -10,20 +10,6 @@ export const menuItemsData = [
     {
         title: 'Projects',
         url: '/projects',
-        submenu: [
-            {
-                title: 'Convolution',
-                url: 'convolution',
-            },
-            {
-                title: 'Regex',
-                url: 'regex',
-            },
-            {
-                title: 'Minimax',
-                url: 'minimax',
-            },
-        ]
     },
     {
         title: 'GitHub',
