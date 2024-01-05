@@ -38,7 +38,7 @@ const ProjectShowcase = ({ items, num }) => {
                     />
                     <div className="project-inner-text">
                         <h2>{items.title}</h2>
-                        <p>{items.description}</p>
+                        <p className="project-desc">{items.description}</p>
                     </div>
                 </div>
             </Link>

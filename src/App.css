@@ -280,6 +280,19 @@
   margin-left: 30px;
 }
 
+@media (max-width: 1000px) {
+  .app-skills-div {
+    gap: 5%;
+  }
+  .app-arrow-link-div {
+    gap: 30px;
+  }
+  .headshot {
+    width: 300px;
+    height: 300px;
+  }
+}
+
 .python-logo {
   height: 80px;
   grid-column: 1;
@@ -373,6 +386,18 @@
 
 .project-link-wrapper {
   text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  .project-desc {
+    opacity: 0%;
+  }
+  .project-image {
+    height: 50px;
+  }
+  .project-showcase-container {
+    grid-template-columns: auto;
+  }
 }
 
 .carousel-slide {
