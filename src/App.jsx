@@ -31,10 +31,9 @@ const App = () => {
       >
       </motion.img>
       <p className="app-body-1">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /><br />
-        Fuga sapiente aliquid sint explicabo quae officia totam sunt <br /><br />
-        molestiae voluptatibus ut incidunt, quod labore doloribus <br /><br />
-        temporibus quo dolorem veniam, laborum doloremque? <br /><br />
+        Hello there! I'm Auden Woolfson, a passionate software engineer with a knack <br /><br />
+        for turning ideas into functional and innovative solutions. I thrive <br /><br />
+        on building robust applications and pushing the boundaries of what's possible. <br /><br />
       </p>
       <br /><br /><br />
       <div className="app-arrow-link-div">

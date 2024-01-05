@@ -317,42 +317,71 @@
 }
 
 .project-showcase-container {
+  margin-top: 30px;
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 700px 700px 700px;
-  gap: 60px
+  grid-template-rows: 150px 150px;
+  gap: 10px 25px;
+}
+
+.project-0, .project-1, .project-2, .project-3 {
+  align-self: center;
+  border-radius: 2%;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  height: 140px;
 }
 
 .project-0 {
   grid-row: 1;
   grid-column: 1;
-  display: block;
-  border-radius: 10%;
-  border-style: solid;
-  border-color: black;
+  background-color: #D1E9B8;
 }
 
 .project-1 {
   grid-row: 1;
   grid-column: 2;
-  align-self: center;
-  border-radius: 10%;
-  border-style: solid;
-  border-color: black;
-  border-width: 10px;
-  color: black;
-  background-color: red;
+  background: #FAE8BC;
 }
 
 .project-2 {
   grid-row: 2;
   grid-column: 1;
-  align-self: center;
-  border-radius: 10%;
-  border-style: solid;
-  border-color: black;
+  background-color: #FACBCB;
+}
+
+.project-3 {
+  grid-row: 2;
+  grid-column: 2;
+  background-color: lightblue;
 }
 
 .project-image {
-  height: 400px;
+  height: 100px;
+  margin: 3px;
+}
+
+.project-inner {
+  display: flex;
+}
+
+.project-inner-text {
+  color: black;
+  margin: 3px;
+}
+
+.project-link-wrapper {
+  text-decoration: none;
+}
+
+.carousel-slide {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
+.carousel-container {
+  max-width: 420px;
+  max-height: 240px;
 }

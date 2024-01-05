@@ -7,8 +7,8 @@ const Projects = () => {
     <div className="content-container">
       <h1>My Projects</h1>
       <div className="project-showcase-container">
-        {ProjectShowcaseData.map((menu, index) => {
-          return <ProjectShowcase items={menu} className={`project-${index}`}/>;
+        {ProjectShowcaseData.map((items, index) => {
+          return <ProjectShowcase items={items} num={index}/>;
         })}
       </div>
     </div>
