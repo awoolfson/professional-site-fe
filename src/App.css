@@ -316,10 +316,43 @@
   grid-row: 2;
 }
 
-.project-showcase-left {
-  float: left;
+.project-showcase-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 700px 700px 700px;
+  gap: 60px
 }
 
-.project-showcase-right {
-  float: right;
+.project-0 {
+  grid-row: 1;
+  grid-column: 1;
+  display: block;
+  border-radius: 10%;
+  border-style: solid;
+  border-color: black;
+}
+
+.project-1 {
+  grid-row: 1;
+  grid-column: 2;
+  align-self: center;
+  border-radius: 10%;
+  border-style: solid;
+  border-color: black;
+  border-width: 10px;
+  color: black;
+  background-color: red;
+}
+
+.project-2 {
+  grid-row: 2;
+  grid-column: 1;
+  align-self: center;
+  border-radius: 10%;
+  border-style: solid;
+  border-color: black;
+}
+
+.project-image {
+  height: 400px;
 }

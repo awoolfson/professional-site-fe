@@ -45,12 +45,12 @@ const App = () => {
       </div>
       <br /><br /><br />
       <div className="app-skills-div">
-        <img src="/python.png" alt="Python logo" className="python-logo"/>
-        <img src="/java.png" alt="Java logo" className="java-logo"/>
-        <img src="/rust.png" alt="Rust logo" className="rust-logo"/>
-        <img src="/js.png" alt="JavaScript logo" className="js-logo"/>
-        <img src="/css.png" alt="CSS logo" className="css-logo"/>
-        <img src="/html.png" alt="HTML logo" className="html-logo"/>
+        <img src="/tech-logos/python.png" alt="Python logo" className="python-logo"/>
+        <img src="/tech-logos/java.png" alt="Java logo" className="java-logo"/>
+        <img src="/tech-logos/rust.png" alt="Rust logo" className="rust-logo"/>
+        <img src="/tech-logos/js.png" alt="JavaScript logo" className="js-logo"/>
+        <img src="/tech-logos/css.png" alt="CSS logo" className="css-logo"/>
+        <img src="/tech-logos/html.png" alt="HTML logo" className="html-logo"/>
       </div>
     </div>
   );
