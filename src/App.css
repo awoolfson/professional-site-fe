@@ -382,6 +382,7 @@
 .project-inner-text {
   color: black;
   margin: 3px;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .project-link-wrapper {
@@ -409,4 +410,17 @@
 .carousel-container {
   max-width: 420px;
   max-height: 240px;
+}
+
+.about-content-box {
+  display: flex;
+  gap: 20px;
+}
+
+h1.about-text-header {
+  color: green;
+}
+
+h2.about-text-header {
+  color: darkgreen;
 }

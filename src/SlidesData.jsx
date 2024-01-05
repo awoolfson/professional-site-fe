@@ -1,11 +1,26 @@
 export const SlidesData = [
     {
-        path: "/project-images/waldo.png"
+        path: "/carousel-images/headshot2.png",
+        slideIndex: 0,
+        colorh1: "green",
+        colorh2: "darkgreen"
     },
     {
-        path: "/headshot.jpeg"
+        path: "/carousel-images/drums.PNG",
+        slideIndex: 0,
+        colorh1: "blue",
+        colorh2: "darkblue"
     },
     {
-        path: "/logo.svg"
-    }
+        path: "/carousel-images/hike.PNG",
+        slideIndex: 0,
+        colorh1: "blue",
+        colorh2: "darkblue"
+    },
+    {
+        path: "/carousel-images/guitar.JPG",
+        slideIndex: 0,
+        colorh1: "blue",
+        colorh2: "darkblue"
+    },
 ];
