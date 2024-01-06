@@ -39,7 +39,7 @@ const About = () => {
           <h2 className="about-text-header" style={styleh2}>
             nice to meet you!
           </h2>
-          <p>
+          <p className="about-text-p">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam maiores reiciendis repellat, 
             non totam porro doloremque illum suscipit odit dolore 
             repellendus necessitatibus voluptates soluta officiis magni neque blanditiis distinctio? Unde!
@@ -49,4 +49,5 @@ const About = () => {
     </div>
   );
 };
+
 export default About;

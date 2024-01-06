@@ -242,6 +242,7 @@
 
  .app-body-1 {
   margin-top: 50px;
+  line-height: 2;
  }
 
  .link-arrow {
@@ -423,4 +424,9 @@ h1.about-text-header {
 
 h2.about-text-header {
   color: darkgreen;
+  line-height: 1.5;
+}
+
+.about-text-p {
+  line-height: 2;
 }
