@@ -240,6 +240,12 @@
   float: right;
  }
 
+ @media(max-width: 1000px) {
+  .headshot {
+    float: top;
+  }
+ }
+
  .app-body-1 {
   margin-top: 50px;
   line-height: 2;
@@ -340,7 +346,7 @@
 
 .project-0, .project-1, .project-2, .project-3 {
   align-self: center;
-  border-radius: 2%;
+  border-radius: 0%;
   border-style: solid;
   border-color: black;
   border-width: 2px;
@@ -351,24 +357,28 @@
   grid-row: 1;
   grid-column: 1;
   background-color: #D1E9B8;
+  /* background-image: linear-gradient(to right, #D1E9B8 , white); */
 }
 
 .project-1 {
   grid-row: 1;
   grid-column: 2;
   background: #FAE8BC;
+  /* background-image: linear-gradient(to left, #FAE8BC , white); */
 }
 
 .project-2 {
   grid-row: 2;
   grid-column: 1;
   background-color: #FACBCB;
+  /* background-image: linear-gradient(to right, #FACBCB , white); */
 }
 
 .project-3 {
   grid-row: 2;
   grid-column: 2;
   background-color: lightblue;
+  /* background-image: linear-gradient(to left, lightblue , white); */
 }
 
 .project-image {
@@ -383,7 +393,8 @@
 .project-inner-text {
   color: rgb(0, 0, 0);
   margin: 3px;
-  font-family: "Lucida Console", "Courier New", monospace;
+  align-self: right;
+  /* font-family: "Jetbrains mono", "Courier New", monospace; */
 }
 
 .project-link-wrapper {
