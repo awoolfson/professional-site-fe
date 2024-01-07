@@ -240,15 +240,15 @@
   float: right;
  }
 
- @media(max-width: 1000px) {
-  .app-body-1 {
-    margin-top: 200px;
-  }
- }
-
  .app-body-1 {
   margin-top: 50px;
   line-height: 2;
+ }
+
+ @media (max-width: 1000px) {
+  .app-body-1 {
+    margin-top: 200px;
+  }
  }
 
  .link-arrow {
