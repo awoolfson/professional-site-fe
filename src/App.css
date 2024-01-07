@@ -241,8 +241,8 @@
  }
 
  @media(max-width: 1000px) {
-  .headshot {
-    float: top;
+  .app-body-1 {
+    margin-top: 200px;
   }
  }
 
