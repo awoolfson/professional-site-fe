@@ -400,6 +400,9 @@
   .project-showcase-container {
     grid-template-columns: auto;
   }
+  .about-content-box {
+    display: inline;
+  }
 }
 
 .carousel-slide {
@@ -429,4 +432,13 @@ h2.about-text-header {
 
 .about-text-p {
   line-height: 2;
+}
+
+@media (max-width: 1000px) {
+  .about-content-box {
+    display: inline;
+  }
+  .about-text {
+    margin-top: 250px;
+  }
 }
