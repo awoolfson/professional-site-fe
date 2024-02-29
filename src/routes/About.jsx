@@ -52,9 +52,9 @@ The algorithm was able to replace the first come first serve system that had bee
 providing greater ease to both students and professors in the registration process and new insights into which courses students preferred. 
 I also conducted bioinformatics research, 
 which was an incredible way for me to combine my interests in biology and environmental studies with my technological skills.
-I graduated from college in December 2023, and I'm currently seeking new grad SWE opportunities.
+I graduated from college in December 2023, and I'm currently working at IBM as a software engineer on the watsonx.data team.
             <br /><br />
-When I'm not studying or working, I love to get outdoors. In 2021, I through-hiked the Appalachian Trail, 
+When I'm not working, I love to get outdoors. In 2021, I through-hiked the Appalachian Trail, 
 and I've been exploring bits of the Long Trail in Vermont since then. The call of the wild out west is getting louder, 
 and I've got my sights set on the Pacific Crest Trail someday.
             <br /><br />
